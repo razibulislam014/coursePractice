@@ -1,8 +1,16 @@
-import Avatar from "./components/Avatar";
+import Profile from "./components/Profile";
 
 function App() {
+  const person = "Razibul";
+  const size = 35;
+  const age = 22;
+
   return (
-    <Avatar person={{ name: "Lin Lanying", imageId: "1bX5QH6" }} size={100} />
+    <div>
+      <div>
+        <Profile person={person} size={size} age={age} />
+      </div>
+    </div>
   );
 }
 

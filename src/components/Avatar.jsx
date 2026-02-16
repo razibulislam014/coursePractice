@@ -1,12 +1,11 @@
 export default function Avatar({ person, size }) {
-//   const { person, size } = props;
+  //   const { person, size } = props;
 
   return (
     <div>
       <div>
-        <h1>{person.name}</h1>
-        <p>{person.imageId}</p>
-        <div>{size}</div>
+        <h1>{person}</h1>
+        <p>{size}</p>
       </div>
     </div>
   );
