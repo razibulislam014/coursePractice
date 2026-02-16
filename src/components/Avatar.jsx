@@ -1,12 +1,5 @@
-export default function Avatar({ person, size }) {
+export default function Avatar() {
   //   const { person, size } = props;
 
-  return (
-    <div>
-      <div>
-        <h1>{person}</h1>
-        <p>{size}</p>
-      </div>
-    </div>
-  );
+  return <div>Avatar</div>;
 }
